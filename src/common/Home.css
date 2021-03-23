@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background: rgb(7,121,195);
+    background: radial-gradient(circle at 80%, rgba(7,121,195,1) 5%, rgba(255,255,255,1) 70%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action {
+    width: 350px;
+    margin-right: 100px;
+}
+
+.call-to-action h1 {
+    padding-bottom: 20px;
+}
+
+.cta-visuals {
+    display: flex;
+}
+
+.cta-btn {
+    background-color: #0779c3;
+    border-radius: 30px;
+    padding: 10px 60px;
+    margin: 20px 0px;
+    width: max-content;
+    color: white;
+}
+
+.cta-btn h1 {
+    padding: 0;
+    font-size: 1.3em;
+}
+
+.table {
+    background-color: #F2F7F2;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.table h1 {
+    font-size: 1.2em;
+}
+
+.card {
+    border: 2px solid #D0CEC8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 220px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.card h1 {
+    font-size: 1.1em;
+}
+
+.profile-row {
+    display: flex;
+}
+
+.profile {
+    box-sizing: border-box;
+    background-color: #0779c3;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+    margin: 5px 5px 0 0;
+    text-align: center;
+}
+
+.profile-add {
+    border: 2px dashed #D0CEC8;
+    background-color: transparent;
+    color: #D0CEC8;
+}
+
+.labels {
+    list-style: none;
+    margin: 5px 5px 5px 0;
+}
+
+.labels li {
+    width: 40px;
+    height: 5px;
+    margin: auto 5px auto 0;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.add {
+    background-color: #D0CEC8;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.add h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
