@@ -128,7 +128,8 @@ function Home() {
                             <h1>+</h1>
                         </div>
                     </div>
-                </div>
+                </div> {/* /Visual */}
+
             </div>
         </div>
     );
