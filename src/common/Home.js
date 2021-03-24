@@ -5,8 +5,10 @@ function Home() {
         <div className="home">
             <div className="cta-container">
                 <div className="call-to-action">
-                    <h1>Get more productive <br/> with KNBN</h1>
-                    <p>KNBN is a new way to organize your tasks, for you and your team</p>
+                    <div className="cta-text">
+                        <h1>Get more productive <br/> with KNBN</h1>
+                        <p>KNBN is a new way to organize your tasks, for you and your team</p>
+                    </div>
                     <div className="cta-btn">
                         <h1>Get Started</h1>
                     </div>

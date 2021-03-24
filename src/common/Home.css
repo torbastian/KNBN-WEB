@@ -14,27 +14,33 @@
 
 .cta-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    padding: 40px 0;
 }
 
 .call-to-action {
-    width: 350px;
-    margin-right: 100px;
+    margin-top: 50vh;
 }
 
 .call-to-action h1 {
     padding-bottom: 20px;
 }
 
+.cta-text {
+    max-width: 350px;
+}
+
 .cta-visuals {
     display: flex;
+    margin-top: 10vh;
 }
 
 .cta-btn {
     background-color: #0779c3;
     border-radius: 30px;
     padding: 10px 60px;
-    margin: 20px 0px;
+    margin: 20px auto;
     width: max-content;
     color: white;
 }
@@ -42,6 +48,10 @@
 .cta-btn h1 {
     padding: 0;
     font-size: 1.3em;
+}
+
+.cta-visuals > .table:not(:first-child) {
+    display: none;
 }
 
 .table {
@@ -113,4 +123,21 @@
 .add h1 {
     font-size: 1.4em;
     font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {    
+    .cta-visuals > .table:not(:first-child) {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cta-container {
+        flex-direction: row;
+    }
+
+    .call-to-action {
+        margin-top: 0;
+        margin-right: 100px;
+    }
 }
