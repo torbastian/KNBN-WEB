@@ -4,8 +4,8 @@
 }
 
 .home {
-    background: var(--blue-color);
-    background: radial-gradient(circle at 80%, var(--blue-color) 5%, var(--background-color) 70%);
+    background: var(--main-contrast-color);
+    background: radial-gradient(circle at 80%, var(--main-contrast-color) 5%, var(--background-color) 70%);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
 }
 
 .cta-btn {
-    background-color: var(--blue-color);
+    background-color: var(--main-contrast-color);
     border-radius: 30px;
     padding: 10px 30px;
     margin: 20px auto;
@@ -85,7 +85,7 @@
 
 .profile {
     box-sizing: border-box;
-    background-color: var(--blue-color);
+    background-color: var(--main-contrast-color);
     width: 35px;
     height: 35px;
     padding: 5px;
