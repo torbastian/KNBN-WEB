@@ -1,0 +1,13 @@
+/* Colors */
+:root {
+    --background-color: #EBEBEB;
+    --blue-color: #2E85EF;
+    --text-color: #252525;
+    --primary-color: #F5F5F5;
+    --primary-contrast: #cacaca;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
