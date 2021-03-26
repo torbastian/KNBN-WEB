@@ -5,7 +5,7 @@
 
 .home {
     background: var(--main-contrast-color);
-    background: radial-gradient(circle at 80%, var(--main-contrast-color) 5%, var(--background-color) 90%);
+    background: radial-gradient(circle at 90%, var(--main-contrast-color) 20%, var(--background-color) 90%);
     height: 100%;
     min-height: 100vh;
     display: flex;
