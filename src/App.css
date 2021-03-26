@@ -2,7 +2,9 @@
 :root {
     --background-color: #EBEBEB;
     --main-contrast-color: #2E85EF;
+    --main-contrast-hover: #5a9ae9;
     --text-color: #252525;
+    --text-color-faded: #a9a9a9;
     --primary-color: #F5F5F5;
     --primary-contrast: #cacaca;
 }
@@ -10,4 +12,34 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+}
+
+.btn {
+    background-color: var(--primary-color);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 2px solid var(--primary-contrast);
+    font-size: 1.2em;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    border-color: var(--text-color-faded);
+    cursor: pointer;
+}
+
+.btn.submit {
+    background-color: var(--main-contrast-color);
+    color: var(--primary-color);
+    border-color: var(--main-contrast-color);
+}
+
+.btn.submit:hover {
+    background-color: var(--main-contrast-hover);
+    border-color: var(--main-contrast-hover);
 }

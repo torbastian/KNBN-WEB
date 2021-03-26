@@ -1,0 +1,122 @@
+#login {
+    box-sizing: border-box;
+    height: 100vh;
+    min-height: 100vh;
+    display: grid;
+    background-color: var(--main-contrast-color);
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+}
+
+.message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 5em;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#login label {
+    font-size: 1.2em;
+}
+
+#login input {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+#login input[type=text], #login input[type=password] {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: 2px solid var(--primary-contrast);
+    transition: border-color 0.3s ease-out;
+}
+
+#login input[type=text]:focus, #login input[type=password]:focus {
+    outline: none;
+    border-color: var(--main-contrast-color);
+}
+
+#login input[type=text]:hover, #login input[type=password]:hover {
+    border-color: var(--text-color-faded);
+}
+
+.button-group {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+.button-group p {
+    max-width: min-content;
+    max-height: min-content;
+    color: var(--text-color-faded);
+    padding: 2px 5px;
+    z-index: 1;
+    margin: auto;
+}
+
+.button-group p::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    transform: translateX(-50%);
+    max-width: 120px;
+    background-color: var(--text-color-faded);
+    margin-top: 12px;
+    margin-left: 5px;
+    z-index: -1;
+}
+
+.button-group p::after {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    transform: translateX(-80%);
+    background-color: var(--primary-color);
+    z-index: -1;
+}
+
+@media only screen and (min-width: 220px) {
+    .button-group p::before {
+        max-width: 190px;
+    }
+}
+
+@media only screen and (min-width: 600px) {   
+    #login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-container {
+        margin-top: 40px;
+        width: 400px;
+        border-radius: 10px;
+        padding: 30px;
+    }
+}
