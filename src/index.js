@@ -5,11 +5,11 @@ import App from './App';
 import Nav from './common/Nav';
 import Home from './common/Home';
 import reportWebVitals from './reportWebVitals';
+import Login from './common/Login';
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
-    <Nav />
   </React.StrictMode>,
   document.getElementById('root')
 );

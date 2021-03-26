@@ -5,11 +5,11 @@
 
 .home {
     background: var(--main-contrast-color);
-    background: radial-gradient(circle at 80%, var(--main-contrast-color) 5%, var(--background-color) 70%);
-    height: 100vh;
+    background: radial-gradient(circle at 80%, var(--main-contrast-color) 5%, var(--background-color) 90%);
+    height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .cta-container {
@@ -20,7 +20,7 @@
 }
 
 .call-to-action {
-    margin-top: 50vh;
+    margin-top: 5vh;
 }
 
 .call-to-action h1 {
@@ -43,7 +43,7 @@
     padding: 10px 30px;
     margin: 20px auto;
     width: max-content;
-    color: white;
+    color: var(--main-contrast-color-text);
 }
 
 .cta-btn h1 {
@@ -89,7 +89,7 @@
     width: 35px;
     height: 35px;
     padding: 5px;
-    color: white;
+    color: var(--main-contrast-color-text);
     border-radius: 50%;
     margin: 5px 5px 0 0;
     text-align: center;

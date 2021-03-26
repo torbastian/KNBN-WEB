@@ -15,7 +15,7 @@
 }
 
 #login h1 {
-    color: var(--primary-color);
+    color: var(--main-contrast-color-text);
     text-align: center;
     font-size: 5em;
 }
@@ -49,6 +49,7 @@
     font-size: 1.2em;
     border-radius: 10px;
     border: 2px solid var(--primary-contrast);
+    background-color: var(--primary-color);
     transition: border-color 0.3s ease-out;
 }
 
@@ -111,6 +112,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background-color: var(--background-color);
+    }
+
+    #login h1 {
+        color: var(--text-color);
     }
 
     .login-container {
