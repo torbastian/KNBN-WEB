@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background: var(--main-contrast-color);
+    background: radial-gradient(circle at 90%, var(--main-contrast-color) 20%, var(--background-color) 90%);
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.call-to-action {
+    margin-top: 5vh;
+}
+
+.call-to-action h1 {
+    padding-bottom: 20px;
+}
+
+.cta-text {
+    max-width: 350px;
+    padding: 10px;
+}
+
+.cta-visuals {
+    display: flex;
+    margin-top: 10vh;
+}
+
+.cta-btn {
+    background-color: var(--main-contrast-color);
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 20px auto;
+    width: max-content;
+    color: var(--main-contrast-color-text);
+}
+
+.cta-btn h1 {
+    padding: 0;
+    font-size: 1.3em;
+}
+
+.cta-visuals > .table:not(:first-child) {
+    display: none;
+}
+
+.table {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.table h1 {
+    font-size: 1.2em;
+}
+
+.card {
+    border: 2px solid var(--primary-contrast);
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 220px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.card h1 {
+    font-size: 1.1em;
+}
+
+.profile-row {
+    display: flex;
+}
+
+.profile {
+    box-sizing: border-box;
+    background-color: var(--main-contrast-color);
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    color: var(--main-contrast-color-text);
+    border-radius: 50%;
+    margin: 5px 5px 0 0;
+    text-align: center;
+}
+
+.profile-add {
+    border: 2px dashed var(--primary-contrast);
+    background-color: transparent;
+    color: var(--primary-contrast);
+}
+
+.labels {
+    list-style: none;
+    margin: 5px 5px 5px 0;
+}
+
+.labels li {
+    width: 40px;
+    height: 5px;
+    margin: auto 5px auto 0;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.add {
+    background-color: var(--primary-contrast);
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.add h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 250px) {
+    .cta-btn {
+        padding: 10px 60px;
+    }
+}
+
+@media only screen and (min-width: 600px) {    
+    .cta-visuals > .table:not(:first-child) {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cta-container {
+        flex-direction: row;
+    }
+
+    .call-to-action {
+        margin-top: 0;
+        margin-right: 100px;
+    }
+}

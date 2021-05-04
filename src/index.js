@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+
 import Nav from './common/Nav';
 import Home from './common/Home';
-import reportWebVitals from './reportWebVitals';
 import Login from './common/Login';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    {/* <Home /> */}
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
