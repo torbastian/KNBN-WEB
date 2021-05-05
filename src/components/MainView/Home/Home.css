@@ -1,3 +1,27 @@
+:root {
+    /*
+    Test Dark Theme
+    --background-color: #1d1d1d;
+    --main-contrast-color-text: #1d1d1d;
+    --main-contrast-color: #ffd517;
+    --main-contrast-hover: #e9b75a;
+    --text-color: #d4d4d4;
+    --text-color-faded: #525252;
+    --primary-color: #414141;
+    --primary-contrast: #2e2e2e;
+    */
+    /*
+    Light Theme
+    */
+    --background-color: #EBEBEB;
+    --main-contrast-color-text: #EBEBEB;
+    --main-contrast-color: #2E85EF;
+    --main-contrast-hover: #5a9ae9;
+    --text-color: #252525;
+    --text-color-faded: #a9a9a9;
+    --primary-color: #F5F5F5;
+    --primary-contrast: #cacaca;
+}
 * {
     margin: 0;
     padding: 0;
