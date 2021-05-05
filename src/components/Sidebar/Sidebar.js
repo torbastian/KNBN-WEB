@@ -20,8 +20,6 @@ const Sidebar = props => {
     const [selected, setSelectedMenuItem] = useState(menuItems[0].name);
     const [isSidebarOpen, setSidebarState] = useState(true);
     const [header, setHeader] = useState(sidebarHeader.fullName);
-
-    // const [subMenuItemsStates, setSubmenus] = useState({});
     const [subMenusStates, setSubmenus] = useState({});
     
 
@@ -47,14 +45,6 @@ const Sidebar = props => {
 
          return () => window.removeEventListener('resize', updateWindowWidth);
      }, [isSidebarOpen]);
-
-    // checks the window width in console
-    //  useEffect(() => {
-    //      const updateWindowWidth = () => {
-    //          console.log(`Window width: ${window.innerWidth}`)
-    //      }
-    //      window.addEventListener('resize', updateWindowWidth)
-    //  }, [])
 
      // Add index of menu items with submenus to state
     useEffect(() => {
@@ -114,11 +104,10 @@ const Sidebar = props => {
     
     const menuItemJSX = menuItems.map((item, index) => {
         const isItemSelected = selected === item.name;
-        // checks which is selected from the sidebar menu
-        // console.log(`${item.name} selected? ${isItemSelected}`)
 
         // check if the menu have sub menu or not
         const hasSubMenus = !!item.subMenuItems.length;
+        
         //if subMenusState with index exists set it on isOpen
         const isOpen = subMenusStates[index]?.isOpen;
 

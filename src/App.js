@@ -21,27 +21,13 @@ const App = () => {
     {name: 'Profile', to: '/profile', icon: 'icons/about.svg', subMenuItems: []},
     {name: 'Login', to: '/login', icon: 'icons/about.svg', subMenuItems: []},
     {name: 'Register', to: '/register', icon: 'icons/about.svg', subMenuItems: []},
-
-
-
-    // {name: 'Destinations', to: '/destinations', icon: 'icons/destinations.svg', 
-    // subMenuItems: [
-    //   { name: 'Canada', to: '/canada'},
-    //   { name: 'Brazil', to: '/brazil'},
-    //   { name: 'India', to: '/india'},
-    //   { name: 'Australia', to: '/australia'},
-    //   { name: 'Kenya', to: '/kenya'},
-    //   { name: 'Moldova', to: '/moldova'},
-    // ]},
-    // {name: 'Blog', to: '/blog', icon: 'icons/blog.svg', subMenuItems: []},
-    // {name: 'Services', to: '/services', icon: 'icons/services.svg', subMenuItems: []},
-    // {name: 'Contacts', to: '/contacts', icon: 'icons/contacts.svg', subMenuItems: []}
   ];
 
   const fonts = {
     header: 'ZCOOL Kuaile',
     menu: 'Poppins'
   }
+  
 // function App() {
 //   return (
 //     <div className="App">
