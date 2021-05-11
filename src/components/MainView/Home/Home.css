@@ -73,6 +73,10 @@
 .cta-btn h1 {
     padding: 0;
     font-size: 1.3em;
+    color: var(--main-contrast-color-text);
+}
+.cta-btn a {
+    text-decoration: none;
 }
 
 .cta-visuals > .table:not(:first-child) {

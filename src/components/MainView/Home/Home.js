@@ -10,7 +10,7 @@ function Home() {
                         <p>KNBN is a new way to organize your tasks, for you and your team</p>
                     </div>
                     <div className="cta-btn">
-                        <h1>Get Started</h1>
+                        <a href="./Register"><h1>Get Started</h1></a>
                     </div>
                 </div>
                 {/* Visual */}
