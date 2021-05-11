@@ -15,8 +15,12 @@ export const SidebarContainer = styled.div`
     color: #fff;
     position: relative; //Toggler
     transition: .2s ease-in all;
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    height: 100%;
     
-
 `
 
 export const SidebarHeader = styled.h3`
