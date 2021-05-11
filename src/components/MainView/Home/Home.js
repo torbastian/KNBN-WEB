@@ -6,11 +6,11 @@ function Home() {
             <div className="cta-container">
                 <div className="call-to-action">
                     <div className="cta-text">
-                        <h1>Get more productive <br/> with KNBN</h1>
+                        <h1>Get more productive <br /> with KNBN</h1>
                         <p>KNBN is a new way to organize your tasks, for you and your team</p>
                     </div>
                     <div className="cta-btn">
-                        <a href="./Register"><h1>Get Started</h1></a>
+                        <a href="./register"><h1>Get Started</h1></a>
                     </div>
                 </div>
                 {/* Visual */}
@@ -25,13 +25,13 @@ function Home() {
                             <h1>Title</h1>
                             <p>This is the task</p>
                             <div className="profile-row">
-                            <div className="profile">
-                                <h1>TH</h1>
-                            </div>
-                            
-                            <div className="profile profile-add">
-                                <h1>+</h1>
-                            </div>
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
                             </div>
                         </div>
 
@@ -42,13 +42,13 @@ function Home() {
                             <h1>Title</h1>
                             <p>This is the task</p>
                             <div className="profile-row">
-                            <div className="profile">
-                                <h1>TH</h1>
-                            </div>
-                            
-                            <div className="profile profile-add">
-                                <h1>+</h1>
-                            </div>
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
                             </div>
                         </div>
 
@@ -59,13 +59,13 @@ function Home() {
                             <h1>Title</h1>
                             <p>This is the task</p>
                             <div className="profile-row">
-                            <div className="profile">
-                                <h1>TH</h1>
-                            </div>
-                            
-                            <div className="profile profile-add">
-                                <h1>+</h1>
-                            </div>
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
                             </div>
                         </div>
                         <div className="add">
@@ -83,13 +83,13 @@ function Home() {
                             <h1>Title</h1>
                             <p>This is the task</p>
                             <div className="profile-row">
-                            <div className="profile">
-                                <h1>TH</h1>
-                            </div>
-                            
-                            <div className="profile profile-add">
-                                <h1>+</h1>
-                            </div>
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
                             </div>
                         </div>
 
@@ -100,13 +100,13 @@ function Home() {
                             <h1>Title</h1>
                             <p>This is the task</p>
                             <div className="profile-row">
-                            <div className="profile">
-                                <h1>TH</h1>
-                            </div>
-                            
-                            <div className="profile profile-add">
-                                <h1>+</h1>
-                            </div>
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
                             </div>
                         </div>
 
@@ -117,13 +117,13 @@ function Home() {
                             <h1>Title</h1>
                             <p>This is the task</p>
                             <div className="profile-row">
-                            <div className="profile">
-                                <h1>TH</h1>
-                            </div>
-                            
-                            <div className="profile profile-add">
-                                <h1>+</h1>
-                            </div>
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
                             </div>
                         </div>
                         <div className="add">

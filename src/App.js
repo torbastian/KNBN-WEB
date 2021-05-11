@@ -5,6 +5,7 @@ import * as s from './App.style'; //s for style
 //components
 import Sidebar from './components/Sidebar/Sidebar'
 import MainView from './components/MainView/MainView';
+import Footer from './components/Footer/Footer'
 
 const App = () => {
 
@@ -46,7 +47,8 @@ return (
       menuItems={menuItems}
       fonts={fonts}
     />
-    <MainView />
+    <MainView/>
+    {/* <Footer/> */}
   </s.App>
 );
 }
