@@ -31,9 +31,10 @@
     background: var(--main-contrast-color);
     background: radial-gradient(circle at 90%, var(--main-contrast-color) 20%, var(--background-color) 90%);
     height: 100%;
-    min-height: 200vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    /* overflow-y: scroll; */
 }
 
 .cta-container {
@@ -91,7 +92,8 @@
     background-color: var(--primary-color);
     border-radius: 10px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 30px;
 }
 
@@ -139,13 +141,37 @@
     margin: 5px 5px 5px 0;
 }
 
-.labels li {
+.labels-todo{
+    width: 40px;
+    height: 5px;
+    margin: auto 5px auto 0;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.labels-doing{
+    width: 40px;
+    height: 5px;
+    margin: auto 5px auto 0;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+.labels-done{
+    width: 40px;
+    height: 5px;
+    margin: auto 5px auto 0;
+    border-radius: 20px;
+    background-color: green;
+}
+
+/* .labels li {
     width: 40px;
     height: 5px;
     margin: auto 5px auto 0;
     background-color: green;
     border-radius: 20px;
-}
+} */
 
 .add {
     background-color: var(--primary-contrast);
@@ -165,25 +191,51 @@
     }
 }
 
-@media only screen and (min-width: 600px) {    
+@media only screen and (min-width: 600px){
+
+}
+
+/* @media only screen and (min-width: 600px) {    
     .cta-visuals > .table:not(:first-child) {
         display: block;
     }
-}
+} */
 
 @media only screen and (min-width: 1000px) {
     
     .home{
-        min-height: 100vh;
+        min-height: 160vh;
+        padding-left: 190px;
+        
     }
     
     
-    .cta-container {
+    /* .cta-container {
         flex-direction: row;
+    } */
+    
+    .table{
+        margin-right: 10px;
+        margin-left: 0px;
     }
 
     .call-to-action {
         margin-top: 0;
-        margin-right: 100px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .home{
+        min-height: 140vh;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .home{
+        min-height: 100vh;
+    }
+    .cta-container {
+        flex-direction: row;
     }
 }

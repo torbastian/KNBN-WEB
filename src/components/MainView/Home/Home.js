@@ -20,7 +20,7 @@ function Home() {
 
                         <div className="card">
                             <ul className="labels">
-                                <li></li>
+                                <li className="labels-todo"></li>
                             </ul>
                             <h1>Title</h1>
                             <p>This is the task</p>
@@ -37,7 +37,7 @@ function Home() {
 
                         <div className="card">
                             <ul className="labels">
-                                <li></li>
+                                <li className="labels-todo"></li>
                             </ul>
                             <h1>Title</h1>
                             <p>This is the task</p>
@@ -54,7 +54,7 @@ function Home() {
 
                         <div className="card">
                             <ul className="labels">
-                                <li></li>
+                                <li className="labels-todo"></li>
                             </ul>
                             <h1>Title</h1>
                             <p>This is the task</p>
@@ -78,7 +78,7 @@ function Home() {
 
                         <div className="card">
                             <ul className="labels">
-                                <li></li>
+                                <li className="labels-doing"></li>
                             </ul>
                             <h1>Title</h1>
                             <p>This is the task</p>
@@ -95,7 +95,7 @@ function Home() {
 
                         <div className="card">
                             <ul className="labels">
-                                <li></li>
+                                <li className="labels-doing"></li>
                             </ul>
                             <h1>Title</h1>
                             <p>This is the task</p>
@@ -112,7 +112,65 @@ function Home() {
 
                         <div className="card">
                             <ul className="labels">
-                                <li></li>
+                                <li className="labels-doing"></li>
+                            </ul>
+                            <h1>Title</h1>
+                            <p>This is the task</p>
+                            <div className="profile-row">
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="add">
+                            <h1>+</h1>
+                        </div>
+                    </div>
+
+                    <div className="table">
+                        <h1>Done</h1>
+
+                        <div className="card">
+                            <ul className="labels">
+                                <li className="labels-done"></li>
+                            </ul>
+                            <h1>Title</h1>
+                            <p>This is the task</p>
+                            <div className="profile-row">
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <ul className="labels">
+                                <li className="labels-done"></li>
+                            </ul>
+                            <h1>Title</h1>
+                            <p>This is the task</p>
+                            <div className="profile-row">
+                                <div className="profile">
+                                    <h1>TH</h1>
+                                </div>
+
+                                <div className="profile profile-add">
+                                    <h1>+</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="card">
+                            <ul className="labels">
+                                <li className="labels-done"></li>
                             </ul>
                             <h1>Title</h1>
                             <p>This is the task</p>
