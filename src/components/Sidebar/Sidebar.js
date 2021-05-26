@@ -166,9 +166,9 @@ const Sidebar = props => {
     <s.SidebarContainer backgroundImage={backgroundImage} isSidebarOpen={isSidebarOpen}>
         <s.SidebarHeader font={fonts.header}>{header}</s.SidebarHeader>
         <s.MenuItemContainer>{menuItemJSX}</s.MenuItemContainer>
-        <s.TogglerContainer onClick={() => setSidebarState(!isSidebarOpen)}>
+        {/* <s.TogglerContainer onClick={() => setSidebarState(!isSidebarOpen)}>
             <s.Toggler />
-        </s.TogglerContainer>
+        </s.TogglerContainer> */}
     </s.SidebarContainer>
     )
 }
