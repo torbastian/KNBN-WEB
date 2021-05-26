@@ -20,7 +20,6 @@ export const SidebarContainer = styled.div`
     top: 0;
     left: 0;
     height: 100%;
-    
 `
 
 export const SidebarHeader = styled.h3`

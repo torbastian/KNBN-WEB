@@ -52,8 +52,15 @@
 }
 
 .cta-text {
-    max-width: 350px;
+    max-width: 250px;
     padding: 10px;
+}
+.cta-text h1{
+    font-size: calc(20px + 6 * ((100vw - 320px) / 680));
+}
+.cta-text p{
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+    margin: 0 20px 0 20px;
 }
 
 .cta-visuals {
@@ -76,7 +83,7 @@
 
 .cta-btn h1 {
     padding: 0;
-    font-size: 1.3em;
+    font-size: .9em;
     color: var(--main-contrast-color-text);
 }
 .cta-btn a {
@@ -104,7 +111,7 @@
     border: 2px solid var(--primary-contrast);
     border-radius: 10px;
     box-sizing: border-box;
-    width: 220px;
+    width: 180px;
     padding: 5px;
     margin-top: 5px;
 }
@@ -185,13 +192,18 @@
 }
 
 @media only screen and (min-width: 250px) {
-    .cta-btn {
+    /* .cta-btn {
         padding: 10px 60px;
-    }
+    } */
 }
 
-@media only screen and (min-width: 600px){
-
+@media only screen and (min-width: 481px){
+    .cta-text {
+        max-width: 350px;
+    }
+    .card{
+        width: 220px;
+    }
 }
 
 /* @media only screen and (min-width: 600px) {    
@@ -224,7 +236,9 @@
 }
 
 @media only screen and (min-width: 1080px) {
-
+    .home{
+        height: 120vh;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
