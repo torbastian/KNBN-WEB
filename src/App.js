@@ -11,7 +11,7 @@ const App = () => {
 
   const backgroundImage = 'images/ocean.jpg';
   const sidebarHeader = {
-    fullName: 'KanBanBoard',
+    fullName: 'KNBN',
     shortName: 'KNBN'
   };
   const menuItems = [
