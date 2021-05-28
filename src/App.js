@@ -17,6 +17,7 @@ const App = () => {
   const menuItems = [
     {name: 'Home', to: '/', icon: 'icons/home.svg', subMenuItems: []},
     {name: 'About', to: '/about', icon: 'icons/about.svg', subMenuItems: []},
+    {name: 'Dashboard', to: '/dashboard', icon: 'icons/about.svg', subMenuItems: []},
     {name: 'Boards', to: '/boards', icon: 'icons/about.svg', subMenuItems: []},
     {name: 'Groups', to: '/groups', icon: 'icons/about.svg', subMenuItems: []},
     {name: 'Profile', to: '/profile', icon: 'icons/about.svg', subMenuItems: []},

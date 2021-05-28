@@ -1,10 +1,13 @@
 import React, {useState} from "react";
 import "./Login.css";
+import { login } from '../../../utils'
+import { logout } from '../../../utils'
 
-function Login() {
+const Login = (props) => {
 
-    function handleSubmit() {
-        Event.preventDefault();
+    const handleSubmit = () => {
+        login();
+        props.history.push('/dashboard');
     }
 
     return (
