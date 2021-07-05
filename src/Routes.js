@@ -9,7 +9,8 @@ import Groups from './components/MainView/Groups/Groups';
 import Profile from './components/MainView/Profile/Profile';
 import Login from './components/MainView/Login/Login';
 import Register from './components/MainView/Register/Register';
-import Dashboard from './components/MainView/Dashboard/Dashboard'
+import Dashboard from './components/MainView/Dashboard/Dashboard';
+import NotFound from './components/MainView/NotFound/NotFound';
 
 // Route permissions
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
@@ -25,8 +26,10 @@ const Routes = () => {
       <PrivateRoute exact path='/boards' component={Boards} />
       <PrivateRoute exact path='/groups' component={Groups} />
       <PrivateRoute exact path='/profile' component={Profile} />
-      <PublicRoute restricted={true} exact path='/login' component={Login} />
+      <PublicRoute  exact path='/login' component={Login} />
       <PublicRoute restricted={true} exact path='/register' component={Register} />
+
+      <Route path='' component={NotFound} />
     </Switch>
   )
 }
